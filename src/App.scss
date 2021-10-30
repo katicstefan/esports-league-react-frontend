@@ -1,0 +1,19 @@
+@import './variables/colors.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&family=Teko&display=swap');
+
+.App {
+  text-align: center;
+  font-family: 'Teko', 'Share Tech', sans-serif;
+
+  background-image: url('./media/background.jpg');
+  background-blend-mode: overlay;
+  background-color: $grey-dark;
+  background-size: 100%;
+  background-position-x: center;
+  background-position-y: -100px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+

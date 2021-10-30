@@ -1,0 +1,25 @@
+@import '../../variables/colors.scss';
+
+.Footer {
+    color: white;
+}
+
+.TopFooter {
+    background-color: $red-dark;
+    height: 64px;
+    margin: 0;
+    padding-left: 64px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.BottomFooter {
+    background-color: $grey-dark;
+    height: 64px;
+    margin: 0;
+    padding-left: 64px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}

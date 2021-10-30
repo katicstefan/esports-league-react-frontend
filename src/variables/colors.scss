@@ -1,0 +1,25 @@
+$red-light: #cb4747;
+$red-main: #a4110d;
+$red-dark: #880c09;
+
+$green-light: #0090ff;
+$green-main: #00ffb1;
+$green-dark: #2e3e3e;
+
+$grey-light: #707070;
+$grey-main: #3e3e3e;
+$grey-dark: #1f1e1f;
+
+:export {
+    redLight: $red-light;
+    redMain: $red-main;
+    redDark: $red-dark;
+    
+    greenLight: $green-light;
+    greenMain: $green-main;
+    greenDark: $green-dark;
+
+    greyLight: $grey-light;
+    greyMain: $grey-main;
+    greyDark: $grey-dark;
+}
